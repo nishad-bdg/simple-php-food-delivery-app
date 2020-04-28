@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 27, 2020 at 04:50 PM
+-- Generation Time: Apr 28, 2020 at 07:21 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.40
 
@@ -115,7 +115,8 @@ INSERT INTO `users` (`id`, `full_name`, `email`, `username`, `password`, `user_t
 (4, 'Nishad Islam', 'nishad.bdg@gmail.com', 'admin', '$2y$10$2m3cHO9xzmErAG8L40HpQ.nTYSCd/XQaJdr5WdN49FZO3LKUieb4O', 1, '0000-00-00 00:00:00'),
 (5, 'Nishad Islam', 'nishad@gmail.com', 'nishad2', '$2y$10$2m3cHO9xzmErAG8L40HpQ.nTYSCd/XQaJdr5WdN49FZO3LKUieb4O', 0, '0000-00-00 00:00:00'),
 (8, 'Nishad Islam', 'nishad1.bdg@gmail.com', 'root', '$2y$10$CZ4wkzrj8i1Oa7i5nAHXhey4bbnmXX.7U0aTR03wClA51q6Jtdule', 0, '0000-00-00 00:00:00'),
-(9, 'Admin Name', 'admin@gmail.com', 'admin2', '$2y$10$Ld0Cqqd7RZMy8gqKbnpMxuzRKNLguC1eb2cvmWFbTuTWAo4e1KOOi', 1, '0000-00-00 00:00:00');
+(9, 'Admin Name', 'admin@gmail.com', 'admin2', '$2y$10$Ld0Cqqd7RZMy8gqKbnpMxuzRKNLguC1eb2cvmWFbTuTWAo4e1KOOi', 1, '0000-00-00 00:00:00'),
+(10, 'nishad', 'nishad23@gmail.com', 'nishad2989', '$2y$10$u8i.neno7BjRdTAMPt11bO59nCezOfLst8L5CwdM8gFyiCMKKo2xe', 0, '0000-00-00 00:00:00');
 
 --
 -- Indexes for dumped tables
@@ -176,7 +177,7 @@ ALTER TABLE `ordered_items`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- Constraints for dumped tables
